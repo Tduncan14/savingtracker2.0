@@ -1,0 +1,37 @@
+:root {
+  --Neutral900: #101010;
+  --Neutral800: #1f1f1f;
+  --Neutral700: #313131;
+  --Neutral600: #3c3b40;
+  --Neutral500: #676767;
+  --Neutral400: #898A8B;
+  --Neutral300: #B7B7B7;
+  --Neutral0: #ffffff;
+
+
+  /* orange */
+
+  --orange800: #903014;
+  --orange700: #B92B09;
+  --orange500: #EB4303;
+  --orange400: #FF5722;
+
+  /* GREEN */
+
+  --Green900: #1A3D2B;
+  --Green500: #4ADE80;
+
+
+  /* Red */
+
+  --Red: #EF4444;
+
+}
+
+/* Global */
+
+.App {
+  background: var(--Neutral900);
+  min-height: 100vh;
+
+}

@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
     align-items: center;
     padding: 1rem 4rem 1rem;
 }
@@ -15,5 +15,9 @@
 button {
     display: flex;
     border-radius: 20px;
-    justify-content: space-between;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    background: var(--orange400);
 }

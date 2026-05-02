@@ -12,11 +12,12 @@
 }
 
 
-button {
+.headerbutton {
     display: flex;
     border-radius: 20px;
     width: 150px;
     text-align: center;
+    height: fit-content;
     justify-content: center;
     font-weight: 700;
     background: var(--orange400);

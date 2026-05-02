@@ -19,7 +19,7 @@ const Header = () => {
 
 
                 <div>
-                    <button className="button"> <img src={plus} /> <p>New goal</p></button>
+                    <button className="headerbutton"> <img src={plus} /> <p>New goal</p></button>
                 </div>
 
             </div>

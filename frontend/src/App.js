@@ -3,16 +3,22 @@ import './App.css';
 import Header from './Components/Header/Header';
 import TotalCal from './Components/TotalCal/Totalcal';
 import Goals from './Goals/Goal';
+import { Route, Routes } from 'react-router';
+import Home from './Components/Home/Home';
+import Goalpage from './Components/GoalPage/Goalpage';
 
 function App() {
   return (
-
-    <div className="App">
+    <div className="">
       <Header />
-      <TotalCal />
-      <Goals />
+      <Routes>
+        <Route path='/' element={<Home />} />
 
 
+        <Route path="/goals/:id" element={<Goalpage />}>
+
+        </Route>
+      </Routes>
     </div>
   );
 }

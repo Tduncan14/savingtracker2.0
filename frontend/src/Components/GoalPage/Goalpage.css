@@ -1,0 +1,36 @@
+.goalpageContainer {
+    background-color: black;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem 1rem;
+}
+
+
+.goalPageHeader {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.spliteMeButton {
+    display: flex;
+    column-gap: 1rem;
+    outline: none;
+
+}
+
+.spliteMeButton button {
+    background: inherit;
+    outline: none;
+    color: #fff;
+    border: none;
+
+}
+
+.goaldataBothLR {
+    display: flex;
+
+}

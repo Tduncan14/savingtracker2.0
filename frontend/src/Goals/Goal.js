@@ -32,8 +32,9 @@ const Goals = () => {
 
             <div className="goalsBody">
 
-                <NavLink className="One goalitems">
+                <NavLink to="/goals/:id " className="One goalitems">
                     <div >
+
                         <h1>MacBook Pro M4</h1>
 
                         <div className="InputContainer">

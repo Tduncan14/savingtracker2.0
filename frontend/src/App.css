@@ -32,6 +32,15 @@
 
 .App {
   background: var(--Neutral900);
-  min-height: 100vh;
 
+
+}
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* Ensures the body actually fills the screen */
 }

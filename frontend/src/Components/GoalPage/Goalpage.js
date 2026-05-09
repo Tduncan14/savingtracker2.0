@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import './Goalpage.css'
 import { NavLink } from 'react-router';
+import downImage from '../../assets/images/icon-arrow-down.svg'
 
 
 const Goalpage = ({ goals }) => {
@@ -67,21 +68,24 @@ const Goalpage = ({ goals }) => {
                             <div className="goalDataLeftInput">
 
                                 <div className="InputContainer">
-                                    <h1>76%</h1>
+
 
                                     <progress value={75} max={100} />
 
                                 </div>
 
 
-                                <div className="goalDataMoneySaved">
-                                    <h3>$1,900.00</h3>
-                                    <h4>Saved so far</h4>
-                                </div>
 
-                                <div className="goalDataMoneyTotal">
-                                    <h3> of $2,499.00</h3>
-                                    <h4>Target</h4>
+                                <div className='goalContainerMoneytoolBar'>
+                                    <div className="goalDataMoneySaved">
+                                        <h3>$1,900.00</h3>
+                                        <h4>Saved so far</h4>
+                                    </div>
+
+                                    <div className="goalDataMoneyTotal">
+                                        <h3> of $2,499.00</h3>
+                                        <h4>Target</h4>
+                                    </div>
                                 </div>
 
 
@@ -125,15 +129,39 @@ const Goalpage = ({ goals }) => {
                     </div>
                 </div>
 
-                <div className="dataRight">
+                <div className="rightData">
 
                     <div className="dataRightHead">
-                        <h1>Deposit History</h1>
+                        <h2>Deposit History</h2>
 
                         <h6> 7 deposits</h6>
                     </div>
 
                     <div className="depositHistory">
+
+                        <div className="depositHistoryDiv">
+
+                            <div className="depositARROW" >
+
+
+                                <img src={downImage} />
+
+
+                                <div className="">
+                                    <h5>Monthly savings</h5>
+                                    <h5>Jan 1, 2026</h5>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                        <div className='moneyDeposit'>
+                            +$200.00
+                        </div>
 
                     </div>
 

@@ -32,5 +32,86 @@
 
 .goaldataBothLR {
     display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
 
+
+.leftData {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+
+
+.rightData {
+    flex: 1;
+}
+
+
+/* right side */
+
+.dataRightHead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    border-bottom: 1px solid white;
+}
+
+
+.goalDataInfo {
+    border: solid 1px rgba(183, 183, 183, .2);
+    background-color: rgba(60, 59, 64, .3);
+    border-radius: 10px;
+    padding: 1rem 2rem .2rem;
+}
+
+.addDeposit {
+    border: solid 1px rgba(183, 183, 183, .2);
+    background-color: rgba(60, 59, 64, .3);
+    border-radius: 10px;
+    padding: 1rem 2rem .2rem;
+
+}
+
+.addDepositContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* goals */
+
+.goalContainerMoneytoolBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* more goal Container */
+
+.goalDataLeftTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* arrow */
+
+
+.depositHistory {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depositARROW {
+    display: flex;
+    align-items: center;
+}
+
+.moneyDeposit {
+    color: green;
 }

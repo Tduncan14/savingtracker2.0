@@ -2,9 +2,15 @@ import { useState, useEffect } from 'react';
 import './Goalpage.css'
 import { NavLink } from 'react-router';
 import downImage from '../../assets/images/icon-arrow-down.svg'
+import EditGoal from '../EditGoal/EditGoal';
+import DeleteGoal from '../DeleteGoal/DeleteGoal';
 
 
 const Goalpage = ({ goals }) => {
+
+
+    const [openModal, setopenModal] = useState(false)
+    const [deleteGoal, setdeleteGoal] = useState(false)
 
 
 
@@ -13,6 +19,16 @@ const Goalpage = ({ goals }) => {
 
     return (
         <div className="goalpageContainer">
+
+            {
+                openModal ? <EditGoal setopenModal={setopenModal} /> : ''
+            }
+
+
+
+            {
+                deleteGoal ? <DeleteGoal /> : ''}
+
 
             <div className="goalPageHeader">
 
@@ -26,11 +42,11 @@ const Goalpage = ({ goals }) => {
 
 
                 <div className='spliteMeButton'>
-                    <button>Edit goal</button>
+                    <button onClick={() => (setopenModal(true))}>Edit goal</button>
 
 
 
-                    <button>Delete goal</button>
+                    <button onClick={() => (setdeleteGoal(true))}>Delete goal</button>
                 </div>
             </div>
 

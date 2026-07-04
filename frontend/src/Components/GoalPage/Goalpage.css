@@ -2,6 +2,7 @@
     background-color: black;
     height: 100%;
     color: white;
+    position: relative;
     display: flex;
     flex-direction: column;
     padding: 1rem 4rem 1rem;
@@ -114,4 +115,8 @@
 
 .moneyDeposit {
     color: green;
+}
+
+.spliteMeButton button {
+    cursor: pointer;
 }

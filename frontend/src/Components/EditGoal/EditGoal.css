@@ -1,0 +1,41 @@
+.editContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editForm {
+    background-color: orange;
+    width: 700px;
+    height: fit-content;
+    padding: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.editHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.editInputs>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.editInputs>div>input {
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}

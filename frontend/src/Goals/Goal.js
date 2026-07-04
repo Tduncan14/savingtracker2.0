@@ -57,7 +57,7 @@ const Goals = () => {
                 </NavLink>
 
 
-                <NavLink className="Two goalitems">
+                <NavLink to="/goals/:id " className="Two goalitems">
                     <div className="TwoTwo" >
                         <h1>MacBook Pro M4</h1>
 
@@ -81,7 +81,7 @@ const Goals = () => {
                 </NavLink>
 
 
-                <NavLink className="Three goalitems">
+                <NavLink to="/goals/:id" className="Three goalitems">
                     <div>
                         <h1>MacBook Pro M4</h1>
 
@@ -105,7 +105,7 @@ const Goals = () => {
                 </NavLink>
 
 
-                <NavLink className="Four goalitems">
+                <NavLink to="/goals/:id" className="Four goalitems">
                     <div >
                         <h1>MacBook Pro M4</h1>
 

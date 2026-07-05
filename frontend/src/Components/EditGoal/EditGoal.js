@@ -27,15 +27,28 @@ const EditGoal = ({ setopenModal }) => {
 
                     <div className="GoalInputContainer">
                         <label htmlFor='goal'>Target amount</label>
-                        <input type="text" placeholder='Goal' />
+                        <input type="text" inputmode="decimal" placeholder="$0.00" />
+
+
                     </div>
 
 
 
                     <div className="GoalInputContainer">
                         <label htmlFor='goal'>Deadline (Optional)</label>
-                        <input type="text" placeholder='Goal' />
+                        <input type="date" placeholder='Goal' />
                     </div>
+
+
+
+                </div>
+
+                <div className="changeButtons">
+
+                    <button>Save Changes</button>
+
+                    <button onClick={() => setopenModal(false)} className="cancelMe">Cancel</button>
+
 
 
 

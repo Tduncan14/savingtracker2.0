@@ -17,10 +17,15 @@
     padding: 3rem;
     padding-right: 2rem;
     padding-left: 2rem;
-
     border-radius: 5px;
     display: flex;
     flex-direction: column;
+}
+
+
+.editForm {
+    font-size: 18px;
+    font-weight: bolder;
 }
 
 .editHeader {
@@ -35,7 +40,32 @@
 }
 
 .editInputs>div>input {
-    border-radius: 5px;
+    border-radius: 10px;
     outline: none;
     border: none;
+    padding: 1.2rem;
+    font-size: 20px;
+}
+
+/* change the buttons */
+
+.changeButtons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+
+.editForm label {
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.changeButtons button {
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-align: center;
+    padding: 1rem;
 }

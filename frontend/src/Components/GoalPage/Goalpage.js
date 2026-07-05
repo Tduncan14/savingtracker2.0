@@ -27,7 +27,7 @@ const Goalpage = ({ goals }) => {
 
 
             {
-                deleteGoal ? <DeleteGoal /> : ''}
+                deleteGoal ? <DeleteGoal setdeleteGoal={setdeleteGoal} /> : ''}
 
 
             <div className="goalPageHeader">
